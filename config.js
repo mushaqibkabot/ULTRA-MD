@@ -20,8 +20,8 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session id here
+global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // 252907027756
+global.SESSION_ID = process.env.SESSION_ID || 'session id';  // HQZ0kB6I#Lx0sO5W3TL9GaPNEL7BF1TTMQahgD67sSoDSkQIKqyY
 
 global.mods = []
 global.prems = []
@@ -92,7 +92,7 @@ global.error = '❌'
 global.xmoji = '🤩'
 
 global.multiplier = 69
-global.maxwarn = '3'
+global.maxwarn = '1'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
